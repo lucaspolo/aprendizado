@@ -35,18 +35,19 @@
     <h3>Na hora do desenvolvimento, não se esqueça:</h3>
     <ul>
 	<li>Definir interfaces (de funções a APIs) pode ser complicado, vá com calma, busque informações;</li>
-        <li>Documente sua API (docstrings, swagger, manual e etc);</li>
-        <li><a href="http://nelsonsar.github.io/2014/04/22/Nao-retorne-null-e-retorne-o-que.html">Não retorne <i>null</i>, não passe <i>null</i>.</a></li>
-        <li><a href="https://en.wikipedia.org/wiki/Magic_number_(programming)">Não use Magic Numbers;</a></li>
-        <li>
-            Crie testes unitários:
-            <ul>
-                <li><a href="https://en.wikipedia.org/wiki/Test-driven_development">Teste todas as condições (branchs);</a></li>
-                <li><a href="http://wiki.c2.com/?ArrangeActAssert">Arrange -> Act -> Assert</a></li>
-                <li>Valide todos os valores, não apenas as quantidades</li>
-            </ul>
-        </li>
-        <li>Faça testes de integração, veja o código rodar como seu cliente verá;</li>
+    <li>Documente sua API (docstrings, swagger, manual e etc);</li>
+    <li><a href="http://nelsonsar.github.io/2014/04/22/Nao-retorne-null-e-retorne-o-que.html">Não retorne <i>null</i>, não passe <i>null</i>.</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Magic_number_(programming)">Não use Magic Numbers;</a></li>
+    <li>
+        Crie testes unitários:
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Test-driven_development">Teste todas as condições (branchs);</a></li>
+            <li><a href="http://wiki.c2.com/?ArrangeActAssert">Arrange -> Act -> Assert</a></li>
+            <li>Valide todos os valores, não apenas as quantidades</li>
+        </ul>
+    </li>
+    <li>Não confira apenas se o processo (função, request, chamada de API) foi executado sem erros, confira também se as informações estão onde devem estar (bancos de dados, caches, arquivos e etc);</li>
+    <li>Faça testes de integração, veja o código rodar como seu cliente verá;</li>
 	<ul>
 		<li>Alterou uma chamada de integração? Verifique como o outro sistema se comportará.</li>
 	</ul>
