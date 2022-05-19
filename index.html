@@ -85,10 +85,17 @@
 		<li>Acompanhe a execução com mesmo afinco que você desenvolve, programa rodando vale mais que código sendo digitado;</li>
 		<li>Mesmo com testes unitários, integração e ambiente de staging, sempre valide em produção;</li>
     </ul>
-    <h3>Troubleshooting (caçando bugs):</h3>
+    <h3>Monitorando</h3>
+    <ul>
+    	<li>Crie alertas automatizados para sua aplicação</li>
+    	<ul>
+    		<li>Não se acostume com falsos positivos, se um alerta pode ser ignorado ele deve ser desligado;</li>
+    		<li>Use métricas para monitorar a saúde do sistema, leia os logs para descobrir a doença;</li>
+    	</ul>
+    </ul>
+    <h3>Troubleshooting (caçando bugs)</h3>
     <ul>
     	<li>Problemas devem ser encarados com frieza, não entre em pânico!</li>
-        <li>Use métricas para monitorar a saúde do sistema, leia os logs para descobrir a doença;</li>
         <li>Ao receber o relato de um problema valide você mesmo se o problema está ocorrendo como descrito;</li>
         <li>Delimite os cenários onde o problema ocorre e o tamanho real dele;</li>
         <li>Tome sempre decisões embasadas em dados coletados;</li>
@@ -96,7 +103,7 @@
         <li>O seu ambiente de desenvolvimento local deve rodar o mais próximo possível como produção para análises e debug;</li>
         <li>Confira valores por inteiro, não compare por partes:
             <ul>
-                <li>Ex: 1928293 é diferente de 1926293.</li>
+                <li>Ex: 1928293 é diferente de 1923293.</li>
             </ul>
         </li>
         <li>Confira as variáveis de configuração (ambiente, arquivos de configuração e etc);</li>
